@@ -1,3 +1,5 @@
+import math
+
 print("Hello Word")
 print(1)
 print(2)
@@ -66,12 +68,48 @@ centimetar = inc * 2.54
 
 print(centimetar)
 
-# arithmetic operators *, /, //
+# arithmetic operators *, /, //, %
 a = 5
 b = 6
 product = a * b
 
 a = 25
-b = a / 4  # 6.25
-c = a // 4 # 6
-j = a % 4  #25
+b = a / 4   # 6.25
+c = a // 4  # 6
+j = a % 4   # 25
+
+# Interpolation - "f"
+
+first_name = input()
+last_name = input()
+age = int(input())
+town = input()
+print(f"You are {first_name} {last_name}, a {age} -"
+      f" years old person from {town}. ")
+
+# Python uzima celu liniju koda, dok kod jave cita do prvog razmaka ako ne kazemo....
+
+x = float(input())
+
+print(math.sqrt(x))
+
+print(math.sin(math.pi/6))
+
+
+# stepenovanje
+
+print(x ** 0.5)
+
+# Zadatak
+
+ime = input()
+broj_gradilista = int(input())
+broj_sati = broj_gradilista * 3
+
+#
+cat = int(input())
+dog = int(input())
+
+price = cat * 4 + dog * 2.5
+
+print(f"{price} USD.")
