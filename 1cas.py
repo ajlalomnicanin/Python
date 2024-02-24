@@ -33,4 +33,14 @@ x = 4
 y = 3.14
 h = "Tesla"
 
+#  Kako se unosi ulaz teksta...:
+name = input("Unesite vase ime ")
+print(name)
+
+broj = int(input())
+print(broj/4.2)
+
+
+data = input()
+num = float(data)
 
