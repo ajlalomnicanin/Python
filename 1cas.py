@@ -33,14 +33,45 @@ x = 4
 y = 3.14
 h = "Tesla"
 
-#  Kako se unosi ulaz teksta...:
-name = input("Unesite vase ime ")
+# Ulaz teksta...:
+name = input("Unesite ime:")
 print(name)
 
 broj = int(input())
 print(broj/4.2)
 
-
 data = input()
 num = float(data)
 
+# Operacije - sabiranje mnozenje deljenje oduzimanje
+
+broj = int(input())
+print(broj*4.2)
+
+#
+name = "Ajla"
+print("Hello" + name + "!")
+
+# Zadaci
+# Povrsina pravougaonika :
+duzina = int(input())
+sirina = int(input())
+
+povrsina = duzina * sirina
+print(povrsina)
+
+# Pretvori ince u cm
+inc = float(input("Unesite decimalni broj: "))
+centimetar = inc * 2.54
+
+print(centimetar)
+
+# arithmetic operators *, /, //
+a = 5
+b = 6
+product = a * b
+
+a = 25
+b = a / 4  # 6.25
+c = a // 4 # 6
+j = a % 4  #25
