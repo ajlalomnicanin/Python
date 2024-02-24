@@ -10,3 +10,27 @@ print(8)
 print(9)
 print(10)
 
+# promenljive u pythonu imaju type, name i value
+#  count = 5
+# count - name of variable
+# 5 - value
+
+x = 3
+print(x)
+
+x = "Tesla"
+print(x)
+
+# promenljive cuvaju neki tip podataka;
+# broj,slovo,tekst,datum,slike...
+
+# tipovi podataka u Pythonu;
+# int - integer: 1, 2, 3, 4...
+# float - floating-point number: 0.5, 3.56...
+# str - text(string): "hello"...
+
+x = 4
+y = 3.14
+h = "Tesla"
+
+
